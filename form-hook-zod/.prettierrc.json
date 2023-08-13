@@ -1,18 +1,17 @@
 {
   "printWidth": 120,
-	"singleQuote": false,
+	"singleQuote": true,
 	"tabWidth": 2,
 	"useTabs": false,
 	"bracketSpacing": true,
 	"bracketSameLine": true,
-	"trailingComma": "es5",
+	"trailingComma": "all",
   "semi": false,
 	"arrowParens": "always",
 	"proseWrap": "always",
 	"embeddedLanguageFormatting": "auto",
 	"organizeImportsSkipDestructiveCodeActions": true,
   "plugins": [
-    "prettier-plugin-svelte",
     "prettier-plugin-organize-imports",
     "prettier-plugin-tailwindcss"
   ],
