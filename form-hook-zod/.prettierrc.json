@@ -11,6 +11,7 @@
 	"proseWrap": "always",
 	"embeddedLanguageFormatting": "auto",
 	"organizeImportsSkipDestructiveCodeActions": true,
+	"tailwindConfig": "./tailwind.config.js",
   "plugins": [
     "prettier-plugin-organize-imports",
     "prettier-plugin-tailwindcss"

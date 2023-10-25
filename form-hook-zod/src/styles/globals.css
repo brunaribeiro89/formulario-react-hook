@@ -27,3 +27,25 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none; 
   margin: 0; 
 }
+
+.resizer {
+  position: "absolute";
+  opacity: 0;
+  top: 0;
+  right: 0;
+  height: "100%";
+  width: "5px";
+  background-color: "#27bbff";
+  cursor: "col-resize";
+  user-select: "none";
+  touch-action: "none";
+  border-radius: "6px"
+}
+.resizer.isResizing {
+  opacity: 1;
+  background-color: #2eff31,
+}
+*:hover > .resizer {
+  opacity: 1,
+}
+

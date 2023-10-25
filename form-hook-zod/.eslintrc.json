@@ -15,9 +15,11 @@
         "plugin:react/recommended",
         "plugin:@typescript-eslint/recommended",
         "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-libray/react",
+        "plugin:jest-dom/recommended",
         "plugin:react-hooks/recommended",
         "prettier",
-        "plugin:pre ttier/recommended"
+        "plugin:prettier/recommended"
     ],
     "overrides": [
     ],
@@ -36,9 +38,10 @@
     "rules": {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-        "react/react-in-jsx-scope": "off",
         "react/prop-types": "off",
         "prettier/prettier": "error",
+        "react/react-in-jsx-scope": "off",
+        "no-undef":"off",
         "import-helpers/order-imports": [
             "warn",
             { // example configuration
